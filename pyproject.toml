@@ -1,0 +1,20 @@
+[project]
+name = "bert-ft-ai-detector"
+version = "0.1.0"
+description = "AI-generated text detection using fine-tuned BERT/XLM-RoBERTa"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=0.20.0",
+    "datasets>=2.14.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "jupyter>=1.0.0",
+    "evaluate>=0.4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
